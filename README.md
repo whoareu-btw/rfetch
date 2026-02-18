@@ -34,5 +34,8 @@ By the way I didnt make it as binary, maybe I'll make it as binary later. I real
     After you installed depedencies need for this project.
     You can use it by this command:
 
-    cd to directory by: $ cd Downloads/rfetch-main/rfetch/src
+    cd to directory by: $ cd Downloads/rfetch/rfetch/src
     after that use this command: $ cargo run
+
+# Screenshot
+    ![Preview](Screenshots/2026-02-18_03-34.png)
