@@ -10,9 +10,7 @@ fn main () {
     let uptime = get_uptime();
     let mem = get_memory();
     let swap = get_swap();
-    let _storage_boot = get_storage("/boot");
     let _storage_root = get_storage("/");
-    let _storage_home = get_storage("/home");
     let shell = get_shell();
 
     println!("{}@{}", user, host);
@@ -24,9 +22,7 @@ fn main () {
     println!("Shell   : {}", shell);
     println!("Memory  : {}", mem);
     println!("Swap    : {}", swap);
-    println!("Storage : {}", _storage_boot);
-    println!("          {}", _storage_root);
-    println!("          {}", _storage_home);
+    println!("Storage : {}", _storage_root);
 }
 
 fn get_username() -> String {
@@ -148,7 +144,7 @@ fn get_memory() -> String {
 
     let used = total - available;
     format!(
-        "{:.1} GiB / {:.1} GiB",
+        "{:.1} G / {:.1} G",
         kb_to_gib(used),
         kb_to_gib(total)
     )
@@ -173,7 +169,7 @@ fn get_swap() -> String {
     let total = sys.total_swap() as f64 / 1_000_000_000.0;
     let used = sys.used_swap()as f64 / 1_000_000_000.0;
 
-    format!("{:.1} GiB / {:.1} GiB", used, total)
+    format!("{:.1} G / {:.1} G", used, total)
 }
 
 fn get_storage(path: &str) -> String {
@@ -200,7 +196,7 @@ fn get_storage(path: &str) -> String {
             let avail = disk.available_space() as f64 / 1_000_000_000.0;
             let used = total - avail;
 
-            format!("{:.1} GiB / {:.1} GiB ({})", used, total, path)
+            format!("{:.1} G / {:.1} G ({})", used, total, path)
         } else {
             format!("N/A ({})", path)
         }
