@@ -1,8 +1,7 @@
 # rfetch
 This is my own fetch, witten in rust and I made this project by vibe coding.
 
-Hello, my name is neko-chi. I want to post my fetch project ( ˶°ㅁ°) !! I code this fetch with vibe code, because I want to make a project and I dont know how to code (ᗒᗣᗕ)՞ Why i named it rfetch? Because I write in rust 
-(˶˃ ᵕ ˂˶)
+Hello, my name is neko-chi. I want to post my fetch project ( ˶°ㅁ°) !! I code this fetch with vibe code, because I want to make a project and I dont know how to code (ᗒᗣᗕ)՞ Why i named it rfetch? Because I write in rust (˶˃ ᵕ ˂˶)
 
 If you want to help this project more better, you can do that, you really help this project more better (づ> v <)づ♡
 
@@ -30,3 +29,10 @@ By the way I didnt make it as binary, maybe I'll make it as binary later. I real
 
     For other distros, you can search rust and cargo package in your web package distros based 
     by package manager or you can ask ChatGPT ◅(´⌯⩊⌯`)▻
+
+# Use
+    After you installed depedencies need for this project.
+    You can use it by this command:
+
+    cd to directory by: $ cd Downloads/rfetch-main/rfetch/src
+    after that use this command: $ cargo run
