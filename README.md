@@ -38,4 +38,5 @@ By the way I didnt make it as binary, maybe I'll make it as binary later. I real
     after that use this command: $ cargo run
 
 # Screenshot
-    ![Preview](Screenshots/2026-02-18_03-34.png)
+![image](<img width="364" height="287" alt="2026-02-18_03-34" src="https://github.com/user-attachments/assets/30484b6d-5744-4746-8e13-9947a5868a25" />
+)
