@@ -1,7 +1,8 @@
 # rfetch
 This is my own fetch, witten in rust and I made this project by vibe coding.
 
-Hello, my name is neko-chi. I want to post my fetch project ( ˶°ㅁ°) !! I code this fetch with vibe code, because I want to make a project and I dont know how to code (ᗒᗣᗕ)՞ Why i named it rfetch? Because I write in rust (˶˃ ᵕ ˂˶)
+Hello, my name is neko-chi. I want to post my fetch project ( ˶°ㅁ°) !! I code this fetch with vibe code, because I want to make a project and I dont know how to code (ᗒᗣᗕ)՞ Why i named it rfetch? Because I write in rust 
+(˶˃ ᵕ ˂˶)
 
 If you want to help this project more better, you can do that, you really help this project more better (づ> v <)づ♡
 
