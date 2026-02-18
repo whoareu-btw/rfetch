@@ -7,7 +7,7 @@ If you want to help this project more better, you can do that, you really help t
 
 By the way I didnt make it as binary, maybe I'll make it as binary later. I really sorry for that (ᵕ—ᴗ—)
 
-# How to use this project? 
+# Depedencies need for this project 
     You must have this depedencies:
        Fedora:
        $ sudo dnf install rustc cargo
@@ -30,7 +30,7 @@ By the way I didnt make it as binary, maybe I'll make it as binary later. I real
     For other distros, you can search rust and cargo package in your web package distros based 
     by package manager or you can ask ChatGPT ◅(´⌯⩊⌯`)▻
 
-# Use
+# How to use this project
     After you installed depedencies need for this project.
     You can use it by this command:
 
