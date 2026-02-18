@@ -9,23 +9,27 @@ By the way I didnt make it as binary, maybe I'll make it as binary later. I real
 
 # Depedencies need for this project 
     You must have this depedencies:
-       Fedora:
-       $ sudo dnf install rustc cargo
+    - Rust
+    - Cargo
 
-      Debian:
-      $ sudo apt install rustc cargo
+    Fedora:
+    $ sudo dnf install rustc cargo
+
+    Debian:
+    $ sudo apt install rustc cargo
     
-      Arch:
-      $ sudo pacman -S rust cargo
+    Arch:
+    $ sudo pacman -S rust cargo
     
-      NixOS:
-      {
-        environment.systemPackages = with pkgs; [
-          rustc
-          cargo
-        ];
-      }
-      and then: $ sudo nixos-rebuild switch
+    NixOS:
+    {
+      environment.systemPackages = with pkgs; [
+        rustc
+        cargo
+      ];
+    }
+    
+    and then: $ sudo nixos-rebuild switch
 
     For other distros, you can search rust and cargo package in your web package distros based 
     by package manager or you can ask ChatGPT ◅(´⌯⩊⌯`)▻
