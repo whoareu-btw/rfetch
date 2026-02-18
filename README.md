@@ -5,6 +5,8 @@ Hello, my name is neko-chi. I want to post my fetch project ( ˶°ㅁ°) !! I co
 
 If you want to help this project more better, you can do that, you really help this project more better (づ> v <)づ♡
 
+By the way I didnt make it as binary, maybe I'll make it as binary later. I really sorry for that (ᵕ—ᴗ—)
+
 # How to use this project? 
     You must have this depedencies:
        Fedora:
@@ -25,4 +27,5 @@ If you want to help this project more better, you can do that, you really help t
       }
       and then: $ sudo nixos-rebuild switch
 
-    For other distros, you can search rust and cargo package in your web package distros based by pcakage manager or you can ask ChatGPT ◅(´⌯⩊⌯`)▻
+    For other distros, you can search rust and cargo package in your web package distros based 
+    by package manager or you can ask ChatGPT ◅(´⌯⩊⌯`)▻
