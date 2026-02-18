@@ -1,7 +1,7 @@
 [package]
 name = "rfetch"
 version = "0.1.0"
-edition = "2026"
+edition = "2024"
 
 [dependencies]
 libc = "0.2"
