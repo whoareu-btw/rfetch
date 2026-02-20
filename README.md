@@ -42,4 +42,4 @@ By the way I didnt make it as binary, maybe I'll make it as binary later. I real
     after that use this command: $ cargo run
 
 # Screenshot
-![Preview](assets/2026-02-18_03-34.png)
+![Preview](assets/2026-02-20_00-52.png)
